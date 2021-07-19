@@ -1,0 +1,64 @@
+.contatoContainer {
+    min-height: 94vh;
+    background-color: #f700ff;
+}
+
+.contatoTitle {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px 0 0;
+    margin: 0;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.formulario div {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.formulario label {
+    margin: 15px 0 5px;
+    color: #f1fffa;
+}
+
+.formulario input,
+.assunto {
+     width: 100%;
+    outline: none;
+    padding: 10px;
+}
+
+.assunto {
+    resize: none;
+    height: 80px;
+}
+
+.submitButton {
+    width: 80%;
+    margin-top: 15px;
+    background-color: #ec88c3;
+    border: none;
+    padding: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+
+.inputError {
+    border: 5px solid #ff00b3;
+}
+
+.formularioErro {
+    color: #f70088;
+}

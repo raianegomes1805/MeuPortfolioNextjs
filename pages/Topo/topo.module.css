@@ -1,0 +1,60 @@
+.topo {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #df4d71;
+    color: #f7929d;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.item {
+    cursor: pointer;
+}
+
+.mainSection::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    filter: brightness(40%);
+    background-attachment: fixed;
+    background-image: url("https://img.olhardigital.com.br/wp-content/uploads/2021/03/mulher-TI.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: rgb(240, 169, 169);
+    font-size: 30px;
+    text-align: center;
+}
+
+.author,
+.subtitle {
+    position: relative;
+    padding: 0;
+    margin: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+}
